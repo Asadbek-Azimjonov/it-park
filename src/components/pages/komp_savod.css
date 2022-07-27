@@ -1,0 +1,166 @@
+.kopm_savod_container{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 50px;
+  
+}
+
+.ommabop{
+    background-color: rgb(75, 130, 185);
+    padding: 5px;
+    color: white;
+    margin-bottom: 1000px;
+}
+.content{
+    background-color: rgb(195, 208, 221);
+    width: 100%;
+    padding: 30px 50px;
+    margin-bottom: 50px;
+}
+.content_header{
+    margin:  25px 0px;
+}
+.content_main{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    padding: 10px 0px;
+    font-size: 20px;
+    margin: 20px 0px;
+    
+}
+.komp-image{
+    width: 100%;
+}
+.course-image{
+    padding-right: 50px;
+    border-right: 2px solid rgb(75, 130, 185);
+    width: 170px;
+}
+.english_image{
+    width: 100px;
+    border: none;
+    padding: 0;
+}
+.english_fee{
+    padding-left: 20px;
+    border-left: 2px solid rgb(60, 122, 184);
+    
+}
+.content_main p{
+    margin-left: 50px;  
+    padding-right: 50px;
+    border-right: 2px solid rgb(75, 130, 185);
+}
+.info-komp {
+    margin-top: 50px;
+}
+.info-komp h2{
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: rgb(60, 122, 184);
+}
+.info-komp > p{
+    font-size: 18px;
+    line-height: 2;
+    
+}
+.komp-table{
+    margin-top: 50px;
+    line-height: 2;
+    font-size:18px ;
+   
+}
+.table-text{
+    display: flex;
+    align-items: center;
+}
+.table-span{
+    display: block;
+    width: 10px;
+    color: rgb(60, 122, 184);
+    height: 10px;
+    background-color: rgb(60, 122, 184);
+    margin-right: 30px;
+}
+@media only screen and (max-width: 1200px) {
+    .kopm_savod_container {
+      width: 84%;
+    }
+    .content_main{
+        width: 100%;
+        display: flex;
+        
+        align-items: center;
+        padding: 10px 0px;
+        font-size: 15px;
+        margin: 10px 0px;
+        
+    }
+  }
+  @media only screen and (max-width: 870px) {
+    .kopm_savod_container {
+      width: 84%;
+      font-family: 'Roboto', sans-serif;
+    }
+    .content_main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px 0px;
+        font-size: 15px;
+        margin: 10px 0px;
+        
+    }
+    .course-image{
+        padding-right: 20px;
+        border-right: 2px solid rgb(75, 130, 185);
+        width: 120px;
+    }
+    .content_main p{
+        margin-left: 20px;  
+        padding-right: 20px;
+        border-right: 2px solid rgb(75, 130, 185);
+    }
+  }
+  @media only screen and (max-width: 870px) {
+    .kopm_savod_container {
+      width: 100%;
+    }
+    .content_main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 20px;
+    }
+    .course-image{
+        border-right: 2px solid rgb(75, 130, 185);
+        width: 120px;
+    }
+    .content_main p{
+        margin-left: 0;
+        margin-top: 10px;
+        border-right: 2px solid rgb(75, 130, 185);
+    }
+    
+    .info-komp p{
+        width: 100%;
+        font-size: 15px;
+        /* line-height: 1; */
+    }
+    .table-text{
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+    }
+    .table-span{
+        width: 5px;
+        height: 5px;
+    }
+  }

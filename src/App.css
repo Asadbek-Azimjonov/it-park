@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+ 
+}
+.loader{
+ text-align: center;
+ position: fixed;
+  display: inline-block;
+  transition: 0.5s;
+  margin-left: 45%;
+ margin-top: 40vh;
+  height: 80px;
+  width: 80px;
+ 
+  
+}
+ 
+
+
+
+
+
