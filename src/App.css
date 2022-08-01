@@ -6,10 +6,6 @@
  
 }
 .loader{
- text-align: center;
- position: fixed;
-  display: inline-block;
-  transition: 0.5s;
   margin-left: 45%;
  margin-top: 40vh;
   height: 80px;
