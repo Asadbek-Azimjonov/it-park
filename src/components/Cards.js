@@ -33,7 +33,7 @@ function Cards() {
             />
             <CardItem
               src='images/Backend.jpg'
-              text='Backend-dasturchi veb-ilovalarning dasturiy-ma`muriy qismi, tizimning ichki tarkibi, server texnologiyalari, ma`lumotlar bazasi, arxitekturasi va dasturlarning logikasi bilan shug`ullanadigan mutaxassisdir.'
+              text='Node js va Python yordamida kod yozing !'
               label='Back-End'
               path='/backend'
             />

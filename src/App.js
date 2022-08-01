@@ -10,6 +10,7 @@ import Backend from './components/pages/backend'
 import ITenglish from './components/pages/itenglish'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import GridLoader from "react-spinners/GridLoader";
+import Footer from './components/Footer';
 
 
 
@@ -41,6 +42,7 @@ function App() {
           <Route path='/backend' exact component={Backend} />
           <Route path='/itenglish' exact component={ITenglish} />
         </Switch>
+        <Footer/>
       </Router>
         )
     
